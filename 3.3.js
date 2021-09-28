@@ -1,15 +1,14 @@
 // Write a program that will create a duplicate of a given array.
 
 numbers = [1, 2, 3];
-numbersCopy = [];
+numbersCopy = [...numbers];
 
 for (i = 0; i < numbers.length; i++) {
   console.log((numbersCopy[i] = numbers[i]));
 }
 
 // méthode push
-numbers = [1, 2, 3];
-numbersCopy = [];
+const arr1 = [1, 2, 3];
+const arr1Copy = [...numbers];
 
-numbersCopy.push(4);
-console.log(numbers, numbersCopy);
+console.log (ar1Copy)

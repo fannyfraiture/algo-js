@@ -1,3 +1,0 @@
-let BecodeBiblio = {
-    book1 : 
-}
